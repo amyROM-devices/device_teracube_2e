@@ -15,6 +15,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit some common amyROM stuff
 $(call inherit-product, vendor/amy/config/common_full_phone.mk)
 
+# amyROM specific overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    overlay-amy
+
 PRODUCT_DEVICE := 2e
 PRODUCT_MANUFACTURER := Teracube
 PRODUCT_NAME := amy_2e

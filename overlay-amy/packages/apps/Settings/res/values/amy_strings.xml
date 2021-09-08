@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- amyROM Device Info -->
+    <string name="amy_device_platform_summary">MT6762D</string>
+    <string name="amy_chipset_type_summary">Mediatek Helio A25</string>
+    <string name="amy_gpu_summary">PowerVR GE8320</string>
+    <string name="amy_camera_mp_summary">13MP+8MP Dual Camera</string>
+    <string name="amy_screen_type_summary">IPS LCD HD+ 6.1" Screen</string>
+
+</resources>
