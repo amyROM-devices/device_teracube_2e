@@ -14,6 +14,10 @@ $(call inherit-product, device/teracube/2e/device.mk)
 # Inherit some common amyROM stuff
 $(call inherit-product, vendor/amy/config/common_full_phone.mk)
 
+# amyROM specific overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    overlay-amy
+
 PRODUCT_BRAND := teracube
 PRODUCT_MANUFACTURER := Teracube
 PRODUCT_DEVICE := 2e
