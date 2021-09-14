@@ -18,6 +18,8 @@ $(call inherit-product, vendor/amy/config/common_full_phone.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     overlay-amy
 
+DEVICE_CUSTOM_BOOTANIMATION := device/teracube/2e/prebuilt/bootanimation.zip
+
 PRODUCT_BRAND := teracube
 PRODUCT_MANUFACTURER := Teracube
 PRODUCT_DEVICE := 2e
